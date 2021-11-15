@@ -39,7 +39,7 @@ struct ContentView: View {
                                 Demo3View()
                                     .tag(2)
                             })
-                        .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
+                            .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
                 }
                 .foregroundColor(Color(#colorLiteral(red: 0.737254902, green: 0.1294117647, blue: 0.2941176471, alpha: 1)))
                 .navigationBarTitleDisplayMode(.inline)
